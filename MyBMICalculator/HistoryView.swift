@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HistoryView: View {
     @Binding var savedHistories: [Bmi]
+    
     var body: some View {
         List(savedHistories) { bmi in
             VStack (alignment: .leading) {
