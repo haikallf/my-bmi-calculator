@@ -21,7 +21,8 @@ struct ContentView: View {
                 Picker("", selection: $isCalculator){
                     Text("Calculator").tag(0)
                     Text("History").tag(1)
-                }.pickerStyle(.segmented)
+                }
+                .pickerStyle(.segmented)
                 
                 if isCalculator == 0 {
                     CalculatorView(weight: $weight, height: $height, savedHistories: $savedHistories)
