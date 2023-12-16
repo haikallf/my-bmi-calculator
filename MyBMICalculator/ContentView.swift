@@ -18,7 +18,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Picker("", selection: $isCalculator){
+                Picker("", selection: $isCalculator) {
                     Text("Calculator").tag(0)
                     Text("History").tag(1)
                 }
