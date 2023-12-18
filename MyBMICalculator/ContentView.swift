@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var weight: Double = 60
     @State private var height: Double = 175
     @State private var savedHistories = [
-        Bmi(date: Date(), result: 24)
+        BMI(date: Date(), result: 24)
     ]
     
     var body: some View {

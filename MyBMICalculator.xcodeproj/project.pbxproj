@@ -12,7 +12,7 @@
 		DE5C90E929C85BB70037B3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5C90E829C85BB70037B3FE /* Assets.xcassets */; };
 		DE5C90EC29C85BB70037B3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5C90EB29C85BB70037B3FE /* Preview Assets.xcassets */; };
 		DE5C90F529C864120037B3FE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C90F429C864120037B3FE /* CalculatorView.swift */; };
-		DE5C90F729C867360037B3FE /* Bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C90F629C867360037B3FE /* Bmi.swift */; };
+		DE5C90F729C867360037B3FE /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C90F629C867360037B3FE /* BMI.swift */; };
 		DE5C90F929C8BC7D0037B3FE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5C90F829C8BC7D0037B3FE /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		DE5C90E829C85BB70037B3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5C90EB29C85BB70037B3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE5C90F429C864120037B3FE /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
-		DE5C90F629C867360037B3FE /* Bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bmi.swift; sourceTree = "<group>"; };
+		DE5C90F629C867360037B3FE /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		DE5C90F829C8BC7D0037B3FE /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 				DE5C90E429C85BB70037B3FE /* MyBMICalculatorApp.swift */,
 				DE5C90E629C85BB70037B3FE /* ContentView.swift */,
 				DE5C90F829C8BC7D0037B3FE /* HistoryView.swift */,
-				DE5C90F629C867360037B3FE /* Bmi.swift */,
+				DE5C90F629C867360037B3FE /* BMI.swift */,
 				DE5C90F429C864120037B3FE /* CalculatorView.swift */,
 				DE5C90E829C85BB70037B3FE /* Assets.xcassets */,
 				DE5C90EA29C85BB70037B3FE /* Preview Content */,
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5C90F729C867360037B3FE /* Bmi.swift in Sources */,
+				DE5C90F729C867360037B3FE /* BMI.swift in Sources */,
 				DE5C90E729C85BB70037B3FE /* ContentView.swift in Sources */,
 				DE5C90F929C8BC7D0037B3FE /* HistoryView.swift in Sources */,
 				DE5C90F529C864120037B3FE /* CalculatorView.swift in Sources */,

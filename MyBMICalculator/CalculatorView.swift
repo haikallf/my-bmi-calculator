@@ -10,7 +10,7 @@ import SwiftUI
 struct CalculatorView: View {
     @Binding var weight: Double
     @Binding var height: Double
-    @Binding var savedHistories: [Bmi]
+    @Binding var savedHistories: [BMI]
     
     func calculateBmi() -> Double {
         return weight * 10000 / pow(height, 2)
@@ -25,7 +25,7 @@ struct CalculatorView: View {
             BMIResult(weight: $weight, height: $height)
             
             Button{
-                let newBmi = Bmi(date: Date(), result: calculateBmi())
+                let newBmi = BMI(date: Date(), result: calculateBmi())
                 savedHistories.insert(newBmi, at: 0)
             } label: {
                 Text("Save to History")

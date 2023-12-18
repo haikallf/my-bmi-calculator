@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HistoryView: View {
-    @Binding var savedHistories: [Bmi]
+    @Binding var savedHistories: [BMI]
     
     var body: some View {
         List(savedHistories) { bmi in
@@ -33,6 +33,6 @@ struct HistoryView: View {
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
         HistoryView(
-            savedHistories: .constant([Bmi(date: Date(), result: 12.52)]))
+            savedHistories: .constant([BMI(date: Date(), result: 12.52)]))
     }
 }

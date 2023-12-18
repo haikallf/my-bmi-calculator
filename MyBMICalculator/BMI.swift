@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Bmi: Identifiable {
+struct BMI: Identifiable {
     let id = UUID()
     let date: Date
     let result: Double
