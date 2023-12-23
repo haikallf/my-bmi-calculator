@@ -34,7 +34,9 @@ struct ContentView: View {
                 Spacer()
             }
             .padding()
-            .navigationTitle(Text("BMI Calculator"))
+            .navigationTitle(
+                Text("BMI Calculator")
+            )
         }
     }
 }
